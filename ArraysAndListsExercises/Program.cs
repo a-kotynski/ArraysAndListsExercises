@@ -20,7 +20,7 @@ namespace ArraysAndListsExercises
     {
         static void Main(string[] args)
         {
-            int i = 0;
+            //int i = 0;
             var names = new List<string>();
             while (true)
             {
@@ -36,7 +36,7 @@ namespace ArraysAndListsExercises
                     continue;
                 }
             }
-            i++;
+            //i++;
             //Console.WriteLine(names.Count);
             int amountOfNames = names.Count - 1;
 
